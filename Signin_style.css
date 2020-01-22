@@ -1,0 +1,91 @@
+    body{
+        background: black;
+                background: url( "developer.jpg");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+         #example1 {
+    border-radius: 10px;
+    min-width:20px;
+    min-height: 40px;    
+    outline: none !important;
+
+       }
+   select:focus{
+    border-color: #0044ff;
+   }
+    .form-control{
+        color: #969fa4;
+        height: 40px;        
+    }
+    .form-control:focus{
+        border-color: #0044ff;
+    }
+    .form-control, .btn{        
+        border-radius: 10px;
+    }
+       
+    .signup{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0;
+        opacity: 0.75;
+    }
+    .signup h2{
+        text-align: center;
+        color: #636363;
+        margin: 0 0 15px;
+        position: relative;        
+    }
+    .signup h2:before, .signup h2:after{
+        content: "";
+        height:auto;
+        top:auto;
+        width: auto;
+        background: pink;
+        position: absolute;       
+    }   
+    .signup h2:before{
+        left: 0;
+    }
+    .signup h2:after{
+        right: 0;
+    }
+    .signup .description{
+        text-align: center;
+        color: #969696;
+        margin-bottom: 30px;        
+    }
+    .signup form{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+        padding: 30px;
+    }
+    .signup .form-group{
+        margin-bottom: 20px;
+    }
+      .signup a{
+        color: #0d0d0d;
+        text-decoration: underline;
+    }
+    .signup a:hover{
+        text-decoration: none;
+    }
+  
+    .signup .btn{        
+        font-size: 16px;
+        font-weight: bold;      
+        min-width: 140px;
+        outline: none !important;
+    }
+    .signup .row div:first-child{
+        padding-right: 10px;
+    }
+    .signup .row div:last-child{
+        padding-left: 10px;
+    }       
+
+   
